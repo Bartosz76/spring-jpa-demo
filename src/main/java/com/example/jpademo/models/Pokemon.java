@@ -23,8 +23,7 @@ public class Pokemon {
 
     // This one will be used to create instances of Pokemon to be saved
     // into a DB.
-    public Pokemon(Long id, String name, String type) {
-        this.id = id;
+    public Pokemon(String name, String type) {
         this.name = name;
         this.type = type;
     }
